@@ -26,9 +26,9 @@ const PokemonCard = (props) => {
 
           <div className="pokeImg" onClick={handleSpriteFlip}>
             {shinySprite === true ? (
-              <img src={pokemonDetails.sprites.front_shiny} />
+              <img src={pokemonDetails.sprites.front_shiny } alt="shinySprite" />
             ) : (
-              <img src={pokemonDetails.sprites.front_default} />
+              <img src={pokemonDetails.sprites.front_default} alt="normalSprite" />
             )}
           </div>
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './DropDown.css'
 
 const DropDown = (props) => {
